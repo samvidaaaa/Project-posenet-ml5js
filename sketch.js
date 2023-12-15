@@ -50,9 +50,9 @@ function draw() {
             line(skeleton[j][0].position.x, skeleton[j][0].position.y, skeleton[j][1].position.x, skeleton[j][1].position.y)
         }
 
-        //image(specs,singlePose.nose.x-35,singlePose.nose.y-50,80,80);
-        //image(smoke,singlePose.nose.x-35,singlePose.nose.y+10,40,40);
-
+        image(actor_img,singlePose.nose.x-90,singlePose.nose.y-120,185,185);
+        //image(specs,singlePose.nose.x-80,singlePose.nose.y-120,180,180);
+        image(smoke,singlePose.nose.x-35,singlePose.nose.y+35,40,40);
         
     }
 
